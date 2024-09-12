@@ -6,7 +6,6 @@ var http = require('http')
 var request = require('supertest')
 
 var bodyParser = require('..')
-const { type } = require('os')
 
 var describeAsyncHooks = typeof asyncHooks.AsyncLocalStorage === 'function'
   ? describe
